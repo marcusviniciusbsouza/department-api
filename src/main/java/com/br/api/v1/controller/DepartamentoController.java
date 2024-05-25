@@ -1,16 +1,11 @@
 package com.br.api.v1.controller;
-import java.util.List;
-import java.util.stream.Collectors;
 
 import javax.validation.Valid;
-
 import com.br.api.v1.mapper.DepartamentoModelMapper;
 import com.br.api.v1.model.input.DepartamentoModelInput;
 import com.br.domain.service.spec.TemplateSpec;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.*;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
