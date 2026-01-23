@@ -5,7 +5,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/department_api
+    url: jdbc:postgresql://localhost:5432/department_api?createDatabaseIfNotExist=true&serverTimezone=UTC
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
